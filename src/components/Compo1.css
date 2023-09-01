@@ -1,0 +1,440 @@
+
+@media (min-width: 1290px) {
+    .container1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 43rem;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+.container2{
+    /* box-sizing: border-box; */
+    overflow: hidden;
+    margin-left: 100px;
+}
+.hea{
+    font-size: 60px;
+    color:var(--black) ;
+}
+.cover{
+    width: 550px;
+    margin-top: 10px;
+}
+.pa{
+    font-size: 20px;
+    color:var(--black) ;
+}
+.cover2{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.but1 {
+    width: 332px;
+    height: 48px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    background-color: var(--backg);
+    color: var(--black);
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .5s ease-in-out .3s;
+}
+.but1:hover{
+    background-color:#e3c7e5 ;
+    height: 52px;
+    width: 340px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.but2 {
+    width: 210px;
+    height: 48px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    background-color: #d564df;
+    color: var(--black);
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .5s ease-in-out .3s;
+}
+.but2:hover{
+    background-color:#8a0393 ;
+    height: 52px;
+    width: 220px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+}
+@media (max-width: 1290px) and (min-width: 1060px) {
+    .container1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 43rem;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .container2{
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-left: 85px;
+    width: 470px;
+}
+.hea{
+    font-size: 45px;
+    color:var(--black) ;
+}
+.cover{
+    width: 440px;
+    margin-top: 10px;
+}
+.pa{
+    font-size: 17px;
+    color:var(--black) ;
+}
+.cover2{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+.but1 {
+    width: 222px;
+    height: 48px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    background-color: var(--backg);
+    color: var(--black);
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .5s ease-in-out .3s;
+}
+.but1:hover{
+    background-color:#e3c7e5 ;
+    height: 49px;
+    width: 260px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.but2 {
+    width: 170px;
+    height: 48px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    background-color: #d564df;
+    color: var(--black);
+    font-size: 17px;
+    cursor: pointer;
+    margin: 0px;
+    transition: all .5s ease-in-out .3s;
+}
+.but2:hover{
+    background-color:#8a0393 ;
+    height: 49px;
+    width: 195px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+}
+@media (max-width: 1060px) and (min-width: 833px) {
+.container1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 45rem;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+.container2{
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-left: 55px;
+    width:370px ;
+}
+.hea{
+    font-size: 35px;
+    color:var(--black) ;
+}
+.cover{
+    width: 360px;
+    margin-top: 10px;
+}
+.pa{
+    font-size: 15px;
+    color:var(--black) ;
+}
+.cover2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.but1 {
+    width: 222px;
+    height: 42px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    background-color: var(--backg);
+    color: var(--black);
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .5s ease-in-out .3s;
+}
+.but1:hover{
+    background-color:#e3c7e5 ;
+    height: 43px;
+    width: 236px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.but2 {
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    background-color: #d564df;
+    color: var(--black);
+    font-size: 17px;
+    cursor: pointer;
+    margin: 0px;
+    transition: all .5s ease-in-out .3s;
+}
+.but2:hover{
+    background-color:#8a0393 ;
+    height: 43px;
+    width: 133px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+}
+@media (max-width: 833px) and (min-width: 635px){
+.container1{
+        display: flex;
+        flex-direction: column;
+        height: 45rem;
+        box-sizing: border-box;
+        overflow: hidden;
+        gap: 20px;
+}
+.container2{
+    margin-top: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; 
+ 
+}
+.hea{
+    font-size: 55px;
+    color:var(--black) ;
+}
+.cover{
+    width: 610px;
+    margin-top: 20px;
+}
+.pa{
+    font-size: 20px;
+    color:var(--black) ;
+}
+.cover2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.but1 {
+    width: 312px;
+    height: 42px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    background-color: var(--backg);
+    color: var(--black);
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .5s ease-in-out .3s;
+}
+.but1:hover{
+    background-color:#e3c7e5 ;
+    height: 43px;
+    width: 316px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.but2 {
+    width: 160px;
+    height: 42px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    background-color: #d564df;
+    color: var(--black);
+    font-size: 17px;
+    cursor: pointer;
+    margin: 0px;
+    transition: all .5s ease-in-out .3s;
+}
+.but2:hover{
+    background-color:#8a0393 ;
+    height: 43px;
+    width: 165px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+/* .container3{
+    box-sizing: content-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+} */
+}
+@media(max-width: 635px){
+.container1{
+        display: flex;
+        flex-direction: column;
+        height: 45rem;
+        box-sizing: border-box;
+        overflow: hidden;
+        gap: 20px;
+}
+.container2{
+    margin-top: 30px;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px; 
+ 
+}
+.hea{
+    font-size: 30px;
+    color:var(--black) ;
+}
+.cover{
+    width: 310px;
+    margin-top: 20px;
+}
+.pa{
+    font-size: 17px;
+    color:var(--black) ;
+}
+.cover2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.but1 {
+    width: 182px;
+    height: 42px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    background-color: var(--backg);
+    color: var(--black);
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .5s ease-in-out .3s;
+}
+.but1:hover{
+    background-color:#e3c7e5 ;
+    height: 43px;
+    width: 206px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+.but2 {
+    width: 100px;
+    height: 42px;
+    border-radius: 10px;
+    border: 2px solid var(--black);
+    background-color: #d564df;
+    color: var(--black);
+    font-size: 17px;
+    cursor: pointer;
+    margin: 0px;
+    transition: all .5s ease-in-out .3s;
+}
+.but2:hover{
+    background-color:#8a0393 ;
+    height: 43px;
+    width: 114px;
+    border-radius: 10px;
+    font-size: 19px;
+}
+}
+@media (min-width: 1461px) {
+    .vid{
+        position: absolute;
+        top: 252px;
+        right: 100px;
+        width: 38%;
+        height: 46%;
+    }
+}
+@media (max-width: 1461px) and (min-width: 1290px) {
+    .vid{
+        position: absolute;
+        top: 252px;
+        right: 100px;
+        width: 40%;
+        height: 43%;
+    }
+}
+@media (max-width: 1290px) and (min-width: 1060px) {
+    .vid{
+        position: absolute;
+        top: 280px;
+        right: 90px;
+        width: 39%;
+        height: 36%;
+    }
+}
+@media (max-width: 1060px) and (min-width: 960px) {
+    .vid{
+        position: absolute;
+        top: 295px;
+        right: 60px;
+        width: 41%;
+        height: 32%;
+    }
+}
+@media (max-width: 960px) and (min-width: 833px) {
+    .vid{
+        position: absolute;
+        top: 305px;
+        right: 60px;
+        width: 41%;
+        height: 28%;
+    }
+}
+@media (max-width: 833px) and (min-width: 635px){
+    .vid{
+        width: 57%;
+        height: 40%;
+        display: inline-flex;
+        margin: 10px 20px;
+    }
+}
+@media (max-width: 635px) and (min-width: 490px){
+    .vid{
+        /* position: absolute;
+        top: 505px;
+        left: 1px; */
+        width: 87%;
+        height: 41%;
+        display: inline-flex;
+        margin: 10px 20px;
+    }
+}
+@media (max-width: 490px){
+    .vid{
+        /* position: absolute;
+        top: 505px;
+        left: 1px; */
+        width: 87%;
+        height: 31%;
+        display: inline-flex;
+        margin: 30px 20px;
+    }
+}

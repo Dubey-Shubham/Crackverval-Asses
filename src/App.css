@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.light-theme{
+  --headbut:#7b848a;
+  --headone: #000000;
+  --backg:#fff;
+  --black:#000000;
+  background-color: #fff;
+}
+
+.head1{
+  font-size: 200px;
+}
+.dark-theme{
+  --headbut:#7b848a;
+  --headone: #fff;
+  --backg:black;
+  --black:#fff;
+  background-color: #000000;
+}
+
+
